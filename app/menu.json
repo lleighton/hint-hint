@@ -1,0 +1,594 @@
+{
+    "createTime": 1409069533950,
+    "id": "main",
+    "menuItems": [{
+        "id": "fi-rates",
+        "text": "Rates",
+        "enabled": true,
+        "type": "top",
+        "children": [{
+            "id": "fi-rates-markets",
+            "text": "Markets",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-rates-markets-global",
+                "text": "Global",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-rates-markets-americas",
+                "text": "Americas",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-rates-markets-emea",
+                "text": "EMEA",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-rates-markets-aej",
+                "text": "Asia Ex-Japan",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-rates-markets-japan",
+                "text": "Japan",
+                "enabled": false,
+                "type": "submenu"
+            }]
+        }, {
+            "id": "_nofilter_fi-rates-products",
+            "text": "Products",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "fi-rates-tools",
+            "text": "Analytic Tools",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-rates-tools-ssa",
+                "text": "Single Security Analyzer",
+                "enabled": true,
+                "url": "/gmr-ssa"
+            }, {
+                "id": "fi-rates-tools-cbm",
+                "text": "Curve / Butterfly Monitor",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/gaw/cbm/monitors"
+            }, {
+                "id": "fi-rates-tools-rv",
+                "text": "RV Tools",
+                "enabled": true,
+                "type": "submenu",
+                "children": [{
+                    "id": "fi-rates-tools-chv",
+                    "text": "Chart Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/chartviewer"
+                }, {
+                    "id": "fi-rates-tools-cuv",
+                    "text": "Curve Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/curveviewer"
+                }, {
+                    "id": "fi-rates-tools-rv-reports",
+                    "text": "RV Reports",
+                    "enabled": true,
+                    "type": "submenu",
+                    "children": [{
+                        "id": "fi-rates-tools-rv-governments",
+                        "text": "Governments",
+                        "enabled": true,
+                        "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/area/government"
+                    }, {
+                        "id": "fi-rates-tools-rv-inflation",
+                        "text": "Inflation Linked",
+                        "enabled": true,
+                        "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/area/inflation"
+                    }, {
+                        "id": "fi-rates-tools-rv-ssa",
+                        "text": "&nbsp;&nbsp;&nbsp;&nbsp;SSA",
+                        "enabled": true,
+                        "url": "/gmr-ssa"
+                    }, {
+                        "id": "fi-rates-tools-rv-futures",
+                        "text": "&nbsp;&nbsp;&nbsp;&nbsp;Futures",
+                        "enabled": true,
+                        "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/main"
+                    }, {
+                        "id": "fi-rates-tools-rv-swaps",
+                        "text": "Swaps",
+                        "enabled": true,
+                        "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/area/swaps"
+                    }, {
+                        "id": "fi-rates-tools-rv-vol",
+                        "text": "&nbsp;&nbsp;&nbsp;&nbsp;Vol",
+                        "enabled": true,
+                        "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/main"
+                    }]
+                }]
+            }]
+        }, {
+            "id": "_nofilter_fi-rates-trades",
+            "text": "Today's Trades",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "_nofilter_fi-rates-research",
+            "text": "Latest Research",
+            "enabled": false,
+            "type": "category"
+        }]
+    }, {
+        "id": "fi-credit",
+        "text": "Credit",
+        "enabled": true,
+        "type": "top",
+        "children": [{
+            "id": "fi-credit-markets",
+            "text": "Markets",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-credit-markets-global",
+                "text": "Global",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-credit-markets-americas",
+                "text": "Americas",
+                "enabled": true,
+                "type": "submenu",
+                "children": [{
+                    "id": "fi-credit-dashboard-mexico",
+                    "text": "Mexico",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/gaw/dashboard/mexico"
+                }]
+            }, {
+                "id": "fi-credit-markets-emea",
+                "text": "EMEA",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-credit-markets-aej",
+                "text": "Asia Ex-Japan",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-credit-markets-japan",
+                "text": "Japan",
+                "enabled": false,
+                "type": "submenu"
+            }]
+        }, {
+            "id": "_nofilter_fi-credit-products",
+            "text": "Products",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "fi-credit-tools",
+            "text": "Analytic Tools",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-credit-tools-ssa",
+                "text": "Single Security Analyzer",
+                "enabled": true,
+                "url": "/gmr-ssa?features=CORP"
+            }, {
+                "id": "fi-credit-tools-rv",
+                "text": "RV Tools",
+                "enabled": true,
+                "type": "submenu",
+                "children": [{
+                    "id": "fi-credit-tools-chv",
+                    "text": "Chart Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/chartviewer"
+                }, {
+                    "id": "fi-credit-tools-cuv",
+                    "text": "Curve Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/curveviewer"
+                }]
+            }, {
+                "id": "fi-credit-tools-rv-reports",
+                "text": "RV Reports",
+                "enabled": true,
+                "type": "submenu",
+                "children": [{
+                    "id": "fi-credit-tools-rv-cds",
+                    "text": "CDS Quote Monitor",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/area/credit?addTab=CDSQuote"
+                }, {
+                    "id": "fi-credit-tools-rv-cdsindex",
+                    "text": "CDS Index Quote",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/area/credit?addTab=CDSIndexQuote"
+                }]
+            }]
+        }, {
+            "id": "_nofilter_fi-credit-trades",
+            "text": "Today's Trades",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "_nofilter_fi-credit-research",
+            "text": "Latest Research",
+            "enabled": false,
+            "type": "category"
+        }]
+    }, {
+        "id": "fi-fx",
+        "text": "FX",
+        "enabled": true,
+        "type": "top",
+        "children": [{
+            "id": "_nofilter_fi-fx-markets",
+            "text": "Markets",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-fx-markets-global",
+                "text": "Global",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-fx-markets-americas",
+                "text": "Americas",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-fx-markets-emea",
+                "text": "EMEA",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-fx-markets-aej",
+                "text": "Asia Ex-Japan",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-fx-markets-japan",
+                "text": "Japan",
+                "enabled": false,
+                "type": "submenu"
+            }]
+        }, {
+            "id": "_nofilter_fi-fx-products",
+            "text": "Products",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "fi-fx-tools",
+            "text": "Analytic Tools",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-fx-tools-rv",
+                "text": "RV Tools",
+                "enabled": true,
+                "type": "submenu",
+                "children": [{
+                    "id": "fi-fx-tools-chv",
+                    "text": "Chart Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/chartviewer"
+                }, {
+                    "id": "fi-fx-tools-cuv",
+                    "text": "Curve Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/curveviewer"
+                }]
+            }]
+        }, {
+            "id": "_nofilter_fi-fx-trades",
+            "text": "Today's Trades",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "_nofilter_fi-fx-research",
+            "text": "Latest Research",
+            "enabled": false,
+            "type": "category"
+        }]
+    }, {
+        "id": "fi-equities",
+        "text": "Equities",
+        "enabled": true,
+        "type": "top",
+        "children": [{
+            "id": "_nofilter_fi-equities-markets",
+            "text": "Markets",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-equities-markets-global",
+                "text": "Global",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-equities-markets-americas",
+                "text": "Americas",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-equities-markets-emea",
+                "text": "EMEA",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-equities-markets-aej",
+                "text": "Asia Ex-Japan",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-equities-markets-japan",
+                "text": "Japan",
+                "enabled": false,
+                "type": "submenu"
+            }]
+        }, {
+            "id": "_nofilter_fi-equities-products",
+            "text": "Products",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "fi-equities-tools",
+            "text": "Analytic Tools",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-equities-tools-rv",
+                "text": "RV Tools",
+                "enabled": true,
+                "type": "submenu",
+                "children": [{
+                    "id": "fi-equities-tools-chv",
+                    "text": "Chart Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/chartviewer"
+                }, {
+                    "id": "fi-equities-tools-cuv",
+                    "text": "Curve Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/curveviewer"
+                }]
+            }]
+        }, {
+            "id": "_nofilter_fi-equities-research",
+            "text": "Latest Research",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "_nofilter_fi-equities-admin",
+            "text": "Equity Admin",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-equities-coverage",
+                "text": "Coverage Reports",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/area/equity?userguide=false"
+            }, {
+                "id": "fi-equities-stockperformance",
+                "text": "Stock Performance",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/area/stockperformance?userguide=false"
+            }]
+        }]
+    }, {
+        "id": "fi-abs",
+        "text": "Securitized Products",
+        "enabled": true,
+        "type": "top",
+        "children": [{
+            "id": "_nofilter_fi-abs-markets",
+            "text": "Markets",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-abs-markets-global",
+                "text": "Global",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-abs-markets-americas",
+                "text": "Americas",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-abs-markets-emea",
+                "text": "EMEA",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-abs-markets-aej",
+                "text": "Asia Ex-Japan",
+                "enabled": false,
+                "type": "submenu"
+            }, {
+                "id": "fi-abs-markets-japan",
+                "text": "Japan",
+                "enabled": false,
+                "type": "submenu"
+            }]
+        }, {
+            "id": "_nofilter_fi-abs-products",
+            "text": "Products",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "fi-abs-tools",
+            "text": "Analytic Tools",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-abs-tools-ssa",
+                "text": "Single Security Analyzer",
+                "enabled": true,
+                "url": "/gmr-ssa"
+            }, {
+                "id": "fi-abs-tools-rv",
+                "text": "RV Tools",
+                "enabled": true,
+                "type": "submenu",
+                "children": [{
+                    "id": "fi-abs-tools-chv",
+                    "text": "Chart Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/chartviewer"
+                }, {
+                    "id": "fi-abs-tools-cuv",
+                    "text": "Curve Viewer",
+                    "enabled": true,
+                    "url": "/fixedincome/portal/workbench/wpage/fi/apps/curveviewer"
+                }]
+            }]
+        }, {
+            "id": "_nofilter_fi-abs-trades",
+            "text": "Today's Trades",
+            "enabled": false,
+            "type": "category"
+        }, {
+            "id": "_nofilter_fi-abs-research",
+            "text": "Latest Research",
+            "enabled": false,
+            "type": "category"
+        }]
+    }, {
+        "id": "fi-qms",
+        "text": "QMS",
+        "enabled": true,
+        "type": "top",
+        "children": [{
+            "id": "fi-gm1_1",
+            "text": "QMS",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "fi-qms-overview",
+                "text": "Overview",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/home"
+            }, {
+                "id": "fi-qms-returns",
+                "text": "Returns",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/returns"
+            }, {
+                "id": "fi-qms-keyecontrends",
+                "text": "Key Economics Trends",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/keyecontrends"
+            }, {
+                "id": "fi-qms-poi",
+                "text": "Performance of Investment Styles",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/perfofinvest"
+            }, {
+                "id": "fi-qms-rates",
+                "text": "Rates Monitor",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/ratesmonitor"
+            }, {
+                "id": "fi-qms-equity",
+                "text": "Equity Monitor",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/equitymonitor"
+            }, {
+                "id": "fi-qms-cpm",
+                "text": "Credit Positions Monitor",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/cpm"
+            }, {
+                "id": "fi-qms-commodities",
+                "text": "Commodities Positions Monitor",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/commoditiesmonitor2"
+            }, {
+                "id": "fi-qms-g10positionsmonitor",
+                "text": "G10 Positions Monitor",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/g10positionsmonitor"
+            }, {
+                "id": "fi-qms-em",
+                "text": "EM Monitor",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/signals/emmonitor"
+            }]
+        }]
+    }, {
+        "id": "tools",
+        "text": "Tools",
+        "enabled": true,
+        "type": "top",
+        "children": [{
+            "id": "tools_1",
+            "text": "Tools",
+            "enabled": true,
+            "type": "category",
+            "children": [{
+                "id": "tools-ssa",
+                "text": "Single Security Analyzer",
+                "enabled": true,
+                "url": "/gmr-ss"
+            }, {
+                "id": "tools-cbm",
+                "text": "Curve / Butterfly Monitor",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/gaw/cbm/monitors"
+            }, {
+                "id": "tools-tradespotlight",
+                "text": "Trade Spotlight",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/gaw/tradespotlight/monitors"
+            }, {
+                "id": "tools-reports",
+                "text": "Reports",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/gaw/reports/main"
+            }, {
+                "id": "tools-portfoliomgr",
+                "text": "Portfolio Manager",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/gaw/portfoliomgr/main"
+            }, {
+                "id": "tools-chartviewer",
+                "text": "Chart Viewer",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/apps/chartviewer"
+            }, {
+                "id": "tools-curveviewer",
+                "text": "Curve Viewer",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/apps/curveviewer"
+            }, {
+                "id": "technology-styles",
+                "text": "Styles",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/technology/newstyles"
+            }, {
+                "id": "technology-charts",
+                "text": "Chart Examples",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/technology/charts"
+            }, {
+                "id": "tools-grid",
+                "text": "Grid Demo",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/apps/griddemo"
+            }, {
+                "id": "tools-ustreasury",
+                "text": "US Treasury",
+                "enabled": true,
+                "url": "/fixedincome/portal/workbench/wpage/fi/rates/gov/usanalyticreport"
+            }]
+        }]
+    }],
+    "type": "main"
+}

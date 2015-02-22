@@ -1,0 +1,122 @@
+@import "variables","reset";
+
+.hint-hint{
+    position:relative;
+    display: inline-block;
+    &:before,&:after{
+        opacity: 0;
+        content: '';
+        position: absolute;
+        background: transparent;
+        visibility: hidden;
+        border: $arrow-border-size solid transparent;
+        z-index: 1000;
+        color: white;
+        transition:all 250ms ease-in-out;
+        pointer-events: none;
+
+    }
+
+    &:after{
+        border:none;
+        content: attr(title);
+        padding:$tooltip-padding;
+        background: $main-color;
+        white-space: nowrap;
+        box-shadow:0  1px  3px rgba(#000, 0.12), 0  1px  2px rgba(#000, 0.24);
+    }
+
+    //Positioning Variations
+    &.right{
+        padding-right:$arrow-border-size;
+    }
+    &.right:before{
+        border-right:$arrow-border-size solid $main-color;
+        left:100%;
+        top:50%;
+        margin-top:-($arrow-border-size/2);
+        z-index:1000;
+
+        transform:translateX(15px);
+    }
+    &.right:after{
+        left:100%;
+        margin-left:$arrow-border-size*2;
+        z-index: 0;
+        transform:translateX(15px);
+    }
+
+    &.bottom:before{
+        border-bottom:$arrow-border-size solid $main-color;
+        left:50%;
+        top:100%;
+        transform:translateY(15px);
+    }
+
+    &.bottom:after{
+        top:100%;
+        left:0;
+        margin-top:$arrow-border-size*2;
+        transform:translateY(15px);
+        box-shadow:0  -1px  3px rgba(#000, 0.12), 0  -1px  2px rgba(#000, 0.24);
+    }
+
+    &.top:before{
+        border-top:$arrow-border-size solid $main-color;
+        left:50%;
+        bottom:100%;
+        transform:translateY(-15px);
+    }
+
+    &.top:after{
+        bottom:100%;
+        left:0;
+        margin-bottom:$arrow-border-size*2;
+        transform:translateY(-15px);
+    }
+
+    //Color Variations
+    &.positive{
+        &:after{
+            background:$positive-color;
+        }
+        &:before{
+            border-top-color:$positive-color;
+        }
+    }
+    &.error{
+        &:after{
+            background:$error-color;
+        }
+        &:before{
+            border-top-color:$error-color;
+        }
+    }
+    &.warn{
+        &:after{
+            background:$warn-color;
+        }
+        &:before{
+            border-top-color:$warn-color;
+        }
+    }
+
+    //when it gets shown
+    &:hover{
+        &:before,&:after{
+            opacity: 1;
+            z-index: 10001;
+            visibility: visible;
+        }
+    }
+
+    &.right:hover:before,&.right:hover:after{
+            transform:translateX(0px);
+    }
+
+    &.top:hover:before,&.top:hover:after,
+    &.bottom:hover:before,&.bottom:hover:after{
+            transform:translateX(0px);
+    }
+}
+
